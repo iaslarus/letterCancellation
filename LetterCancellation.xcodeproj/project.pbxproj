@@ -13,6 +13,9 @@
 		E11FB1481B3C49B700AA048F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11FB1471B3C49B700AA048F /* Images.xcassets */; };
 		E11FB14B1B3C49B700AA048F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11FB1491B3C49B700AA048F /* LaunchScreen.xib */; };
 		E11FB1571B3C49B700AA048F /* LetterCancellationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FB1561B3C49B700AA048F /* LetterCancellationTests.swift */; };
+		E11FB1611B3C4CE600AA048F /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FB1601B3C4CE600AA048F /* DrawingView.swift */; };
+		E11FB1651B3C545400AA048F /* Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FB1641B3C545400AA048F /* Letters.swift */; };
+		E1C802B11B54039000A58686 /* coloredConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C802B01B54038F00A58686 /* coloredConnections.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		E11FB1501B3C49B700AA048F /* LetterCancellationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetterCancellationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11FB1551B3C49B700AA048F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E11FB1561B3C49B700AA048F /* LetterCancellationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCancellationTests.swift; sourceTree = "<group>"; };
+		E11FB1601B3C4CE600AA048F /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		E11FB1641B3C545400AA048F /* Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Letters.swift; path = LetterCancellation.xcodeproj/../Letters.swift; sourceTree = SOURCE_ROOT; };
+		E1C802B01B54038F00A58686 /* coloredConnections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coloredConnections.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				E11FB1401B3C49B700AA048F /* AppDelegate.swift */,
 				E11FB1421B3C49B700AA048F /* ViewController.swift */,
+				E11FB1641B3C545400AA048F /* Letters.swift */,
+				E11FB1601B3C4CE600AA048F /* DrawingView.swift */,
+				E1C802B01B54038F00A58686 /* coloredConnections.swift */,
 				E11FB1441B3C49B700AA048F /* Main.storyboard */,
 				E11FB1471B3C49B700AA048F /* Images.xcassets */,
 				E11FB1491B3C49B700AA048F /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11FB1611B3C4CE600AA048F /* DrawingView.swift in Sources */,
+				E1C802B11B54039000A58686 /* coloredConnections.swift in Sources */,
 				E11FB1431B3C49B700AA048F /* ViewController.swift in Sources */,
 				E11FB1411B3C49B700AA048F /* AppDelegate.swift in Sources */,
+				E11FB1651B3C545400AA048F /* Letters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +423,7 @@
 				E11FB15C1B3C49B700AA048F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E11FB15D1B3C49B700AA048F /* Build configuration list for PBXNativeTarget "LetterCancellationTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				E11FB15F1B3C49B700AA048F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
